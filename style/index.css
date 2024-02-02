@@ -1,0 +1,48 @@
+body {
+    direction: rtl;
+}
+*{
+    box-sizing: border-box;
+    font-family: vazirmatn;
+
+}
+
+input[type=text],input[type=tel],input[type=email],select,textarea {
+
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: palevioletred;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+    font-size: large;
+
+}
+input[type=submit]:hover {
+    background-color: #94dcfb;
+}
+.container {
+    display: flex;
+    border-radius: 5px;
+    background-color: #f4dde8;
+
+    padding: 20px;
+}
+.left{
+    margin-right: 20px;
+   
+}
+textarea{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EBkK5nbnZYCWc7K9vunqqxtfWCOr-zOGejZF_oHYvaLJWO7D1gPvqHhb7p1EymA-b8Y&usqp=CAU);
+}

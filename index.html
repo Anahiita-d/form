@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>form</title>
+    <link
+    href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css"
+    rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+    type="text/css" />
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+    <h3>
+        <i class="fa-solid fa-phone"></i>
+        تماس با ما
+    </h3>
+    
+    <form action="#"></form>
+    <div class="container">
+        <div class="right">
+            <label for="fname">نام</label>
+            <input type="text" id="fname" name="firstname" placeholder="نام شما">
+
+            <label for="lname">نام خانوادگی</label>
+            <input type="text" id="lname" name="lastname" placeholder="نام خانوادگی شما">
+
+            <label for="phone">تلفن تماس</label>
+            <input type="tel" id="phone" name="phone" placeholder="تلفن همراه">
+
+
+            <label for="email">پست الکترونیکی</label>
+            <input type="email" id="email" name="email" placeholder="پست الکترونیکی"><br>
+            <input type="submit" value="تایید">
+
+        </div>
+        <div class="left">
+            <label for="subject">موضوع</label>
+            <select name="subject" id="subject">
+                <option value="01">پروژه</option>
+                <option value="02">مشاوره</option>
+            </select>
+
+                <label for="meeting">درخواست ملاقات</label>
+            <select name="meeting" id="meeting">
+                <option value="01">حضوری</option>
+                <option value="02">مجازی</option>
+            </select>
+
+            <label for="desk">توضیحات <i class="fa-thin fa-heart"></i></label>
+            <textarea name="desk" id="desk" placeholder="توضیحی بنویسید.." style="height: 200px;"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
